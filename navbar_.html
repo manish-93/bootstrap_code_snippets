@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
     <title>Navbar Code Snippet</title>
@@ -23,12 +24,34 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="row">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> 
+                    <li class="nav-item active">
+                            <a href="#" class="fa fa-facebook"></a>
+                    </li>
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-                            </li>
+                    <li class="nav-item active">
+                            <a href="#" class="fa fa-twitter"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navbarToggler">
+                    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+                            
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About <span class="sr-only"></span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                    Become a member!
+                                </button>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Login<span class="sr-only"></span></a>
+                        </li>
             </div>
 
 
